@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+}
+
+body {
+    background: #E1D7D4;
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h3, .tableDiagram {
+    margin: 0 auto;
+}
+
+.tableDiagram {
+    background: white;
+    width: 400px;
+    height: 300px;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.title {
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    color: #E34E45;
+}
+
+.pick {
+    margin-bottom: 40px;
+}
+
+.available {
+    color: #ADAAAA;
+    background: #EEE;
+    width: 75px;
+    height: 75px;
+    border-radius:50%;
+    margin: 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.available.hover {
+    background: #CCC;
+    cursor: pointer;
+}
+
+.reserved {
+    color: #CCC;
+    background: #ADAAAA;
+    width: 75px;
+    height: 75px;
+    border-radius:50%;
+    margin: 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: not-allowed;
+}
+
+.tableRegistration {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 400px;
+    width: 50%;
+    z-index: 500;
+    top: 20%;
+    margin: 0 23%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.3);
+    position: fixed;
+}
+
+.material-icons {
+    float: right;
+    color: #EEE;
+    cursor: pointer;
+}
+
+form h1 {
+    width: 91%;
+    margin: 0 auto;
+    clear: float;
+}
+
+.tableNumber {
+    width: 91%;
+    margin: 0 auto;
+    margin-top: 3%;
+    font-size: 24px;
+}
+
+input {
+    width: 90%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 3px solid #CCC;
+    font-size: 16px;
+}
+
+button {
+    width: 91%;
+    color: white;
+    background: #008000;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+input, button {
+    margin: 2% auto;
+    height: 25%;
+}
